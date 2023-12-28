@@ -1,7 +1,7 @@
 let characters = [];
 
 function fetchCharacters() {
-    fetch('http://localhost:3000/characters') // Adjust the URL if needed
+    fetch('http://localhost:3000/characters')
         .then(response => response.json())
         .then(data => {
             characters = data;
